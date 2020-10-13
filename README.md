@@ -1,5 +1,7 @@
 # css-sprite-maker
-  This small project makes CSS sprites from svg/png/gif
+  This small project makes CSS sprites from svg/png/gif windows support only.
+  
+  if you wish to add MacOS or linux support, create a PR :)
 
 # Installation
 1. Install [node.js](https://nodejs.org/),[python(2 version)](https://www.python.org/downloads/release/python-2710/),[Microsoft Visual Studio C++ 2013](https://support.microsoft.com/ru-ru/help/3179560/update-for-visual-c-2013-and-visual-c-redistributable-package) and gulp globally
