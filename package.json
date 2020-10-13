@@ -1,0 +1,32 @@
+{
+  "name": "JSSpriteConverter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-svg-sprite": "^1.5.0",
+    "nodemon": "^2.0.4",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-svgmin": "^3.0.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cssspriter": "0.0.11",
+    "express": "^4.17.1",
+    "gm": "^1.23.1",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-svgmin": "^3.0.0",
+    "image-size": "^0.9.1"
+  }
+}

@@ -1,0 +1,56 @@
+
+._1_gif {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/sprite.gif);
+	background-position: 0px 0px
+}
+
+._1_png {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/sprite.png);
+	background-position: 0px 0px
+}
+
+._2_png {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/sprite.png);
+	background-position: 0px -16px
+}
+
+.dot_gif {
+	width: 6px;
+	height: 6px;
+	background-image: url(../img/sprite.gif);
+	background-position: 0px -32px
+}
+
+._2_gif {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/sprite.gif);
+	background-position: 0px -16px
+}
+
+.tw_gif {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/sprite.gif);
+	background-position: 0px -38px
+}
+
+.tw_png {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/sprite.png);
+	background-position: 0px -38px
+}
+
+.dot_png {
+	width: 6px;
+	height: 6px;
+	background-image: url(../img/sprite.png);
+	background-position: 0px -32px
+}
