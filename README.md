@@ -22,9 +22,13 @@ Put all your SVG/PNG/GIF files into the input folder and run
     npm run start
     
 # Using in broswer
-  A template is in the public/index.html folder and running the app would create a server on port 3000 that will run the index file.
+  The app generates 2 CSS/SCSS files, CSS for gif/png and SCSS for the SVG, both are found within public/css folder.
+  properties of the generated sprites are found within, both have to be added to the head property in your HTML file (usually index.html) in a link tag fashion:
   
-  the basics:
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="styles" href="img/svg_sprite.svg">
+  
+  then you can call classes of the GIF/PNG and use the inside ref of the SVG symbol:
   
         <!-- Examples on using SVG sprite -->
         <svg class="icon icon-home red_mod">
@@ -40,6 +44,7 @@ Put all your SVG/PNG/GIF files into the input folder and run
         <div class="_2_png"></div>
         <div class="tw_png"></div>  
 
+  A template is in the public/index.html folder and running the app would create a server on port 3000 that will run the index file example.
 
 # Credits
   The SVG part was taken from Glivera Team and all credits reserved to [them](https://github.com/glivera-team/glivera-team-template)
