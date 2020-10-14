@@ -11,7 +11,7 @@ config = {
       sprite: "../sprite.svg",
       render: {
         scss: {
-          dest:'../../../public/css/svg_sprite.scss',
+          dest:'../../../css/svg_sprite.scss',
           template: "src/templates/_sprite_template.scss"
         }
       }

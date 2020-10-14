@@ -20,6 +20,13 @@
 	background-position: 0px -16px
 }
 
+._2_gif {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/sprite.gif);
+	background-position: 0px -16px
+}
+
 .dot_gif {
 	width: 6px;
 	height: 6px;
@@ -27,11 +34,11 @@
 	background-position: 0px -32px
 }
 
-._2_gif {
-	width: 16px;
-	height: 16px;
-	background-image: url(../img/sprite.gif);
-	background-position: 0px -16px
+.dot_png {
+	width: 6px;
+	height: 6px;
+	background-image: url(../img/sprite.png);
+	background-position: 0px -32px
 }
 
 .tw_gif {
@@ -46,11 +53,4 @@
 	height: 16px;
 	background-image: url(../img/sprite.png);
 	background-position: 0px -38px
-}
-
-.dot_png {
-	width: 6px;
-	height: 6px;
-	background-image: url(../img/sprite.png);
-	background-position: 0px -32px
 }
